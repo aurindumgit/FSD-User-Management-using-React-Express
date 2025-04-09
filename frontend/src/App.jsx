@@ -3,16 +3,19 @@ import Register from './components/Register'
 import View from './components/View'
 import Delete from './components/Delete'
 import Update from './components/Update'
+import './App.css'
 
 const App = () => {
   return (
     <div>
-      <h1 style={{backgroundColor:'orange'}}>User Registration System</h1>
+      <h1>User Registration System</h1>
       <Register />
       <Update />
       <Delete />
       <View />
+      <h6 style={{textAlign:"center"}}>Aurindum Bose</h6>
     </div>
+    
   )
 }
 

@@ -14,7 +14,7 @@ const View = () => {
   return (
     <div>
         <h1>Registerd Users List</h1>
-        <table style={{border: '2px solid orange',backgroundColor: 'gold',width: '100%'}}>
+        <table>
             <tr>
                 <th>ID</th>
                 <th>Name</th>

@@ -16,7 +16,7 @@ const Update = () => {
       <h1>Update User</h1>
       <form onSubmit={handleupdate}>
         <label>
-          ID:
+          ID:<br />
           <input type="text" name="id"  />
         </label>
         <label>
